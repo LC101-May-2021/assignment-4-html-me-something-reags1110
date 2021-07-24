@@ -60,12 +60,13 @@ footer {
 }
 
 .funParagraph {
-    background-color: green;
+    background-color: white;
     font-family: cursive;
     font-size: xx-large;
     margin: 20px 200px 20px 200px;
-    color: whit;
+    color: green;
     border-radius: 15px;
+    padding: 5px;
 
 }
 .image {
