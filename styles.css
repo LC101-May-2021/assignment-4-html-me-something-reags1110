@@ -1,1 +1,119 @@
 /* Write your CSS here! */
+body {
+    color: white;
+    font: xx-large;
+    margin: 8px;
+    background-color: slategray;
+            
+}
+
+a {
+    text-decoration-color: red;
+    color: black;
+
+}
+
+hr {
+    margin: 40px 0;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: solid white;
+    background-color: black;
+    background-position: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+p {
+    font-family: serif;
+    font-size: x-large;
+}
+
+footer {
+    font-size: 20px;
+    font-family: cursive;
+
+}
+#mainHeading {
+    color: red;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.city {
+    color: white;
+    font: serif;
+    font-size: 45px;
+    background-color: black;
+    border: 3px solid white;
+    border-style: solid black;
+    border-radius: 15px;
+    margin: 20px 200px 20px 200px;
+}
+
+.bodyContainer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.funParagraph {
+    background-color: white;
+    font-family: cursive;
+    font-size: xx-large;
+    margin: 20px 200px 20px 200px;
+    color: green;
+    border-radius: 15px;
+    padding: 5px;
+    border: 3px solid black;
+
+}
+.image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.image-container {
+    border: solid rgb(243, 237, 237) 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.paragraph {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: large;
+}
+.button2 {
+    font-family: serif;
+    padding: 15px 30px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid black 2px;
+
+}
