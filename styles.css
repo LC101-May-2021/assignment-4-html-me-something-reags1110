@@ -7,20 +7,30 @@ body {
             
 }
 
+a {
+    text-decoration-color: red;
+    color: black;
+
+}
+
+hr {
+    margin: 40px 0;
+}
+
 h1 {
     font-family: fantasy;
     font-size: 50px;
     color: solid white;
     background-color: black;
     background-position: center;
-    border: 10px solid black;
+    border: 3px solid white;
     border-radius: 15px;
-    padding: 30px 30px 30px 30px;   
+    padding: 10px;
 }
 
 h2 {
     font-family: serif;
-    font-size: xx-large;
+    font-size: x-large;
     font-style: italic;
 }
 
@@ -37,15 +47,15 @@ footer {
 #mainHeading {
     color: red;
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-#city {
+.city {
     color: white;
     font: serif;
     font-size: 45px;
     background-color: black;
-    border: 5px solid black;
+    border: 3px solid white;
     border-style: solid black;
     border-radius: 15px;
     margin: 20px 200px 20px 200px;
@@ -67,6 +77,7 @@ footer {
     color: green;
     border-radius: 15px;
     padding: 5px;
+    border: 3px solid black;
 
 }
 .image {
@@ -88,17 +99,21 @@ footer {
 }
 .paragraph {
     margin: auto;
+    margin-bottom: 30px;
     text-align: justify;
     font-size: large;
 }
 .button2 {
-    background-color: pink;
     font-family: serif;
     padding: 15px 30px;
     text-align: center;
-    text-decoration: magenta;
+    color: black;
     display: inline-block;
     font-size: 30px;
     margin: 10px 10px 10px 10px;
     cursor: pointer;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid black 2px;
+
 }
